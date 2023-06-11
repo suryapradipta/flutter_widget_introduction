@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_widget_introduction/pages/00_sample_widget/my_scaffold.dart';
+import 'package:flutter_widget_introduction/pages/01_using_material_components/tutorial_home.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyScaffold(),
+      home: TutorialHome(),
     );
   }
 }

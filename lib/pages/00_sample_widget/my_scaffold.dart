@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widget_introduction/pages/00_sample_widget/my_app_bar.dart';
+import 'package:flutter_widget_introduction/pages/00_sample_widget/widgets/my_app_bar.dart';
 
 class MyScaffold extends StatelessWidget {
   const MyScaffold({Key? key}) : super(key: key);
